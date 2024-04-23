@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'main_screen.dart';
+import 'sqflite_try/home_page.dart';
 
 void main() async {
   runApp(const MyApp());
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
-      home: MainScreen(),
+      home: HomePage(),
     );
   }
 }

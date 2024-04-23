@@ -1,12 +1,12 @@
 class NotesModel {
-  final int id;
+  final int? id;
   final String title;
-  final int age;
+  final int? age;
   final String description;
-  final String email;
+  final String? email;
 
   NotesModel({
-    required this.id,
+    this.id,
     required this.title,
     required this.age,
     required this.description,
