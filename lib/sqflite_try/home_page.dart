@@ -20,6 +20,10 @@ class _HomePageState extends State<HomePage> {
       body: Column(
         children: [],
       ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {},
+        child: Icon(Icons.add),
+      ),
     );
   }
 }
